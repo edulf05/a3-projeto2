@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="iso-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu a3</title>
+        <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-image: linear-gradient(to left, gray, black);
+            color:white;
+        }
+        .botao {
+            color: white;
+            background-color: red;
+            width: 200px;
+            border: none;
+            border-radius: 15px;
+            position: relative;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            bottom: -100%;
+            cursor: pointer;
+        }
+        .caixa {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 150px;
+            margin: 0 auto;
+        }
+        .botaoIndex{
+            position: absolute;
+            background-color: goldenrod;
+            width: 200px;
+            right: -17%;
+            border-radius: 15px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    </head>
+
+    <body>
+        <div class="caixa">
+            <button class="botao"
+                onclick="location.href = 'formPerfil.php?op=Incluir'">
+                Incluir Perfil
+            </button>
+            <button class="botao"
+                onclick="location.href = 'formListarPerfil.php?op=Listar'">
+                Listar Perfis
+            </button>
+
+            <br><br>
+
+            <button class="botao"
+                onclick="location.href = 'formUsuario.php?op=Incluir'">
+                Incluir Usuario
+            </button>
+            <button class="botao"
+                onclick="location.href = 'formListarUsuario.php?op=Listar'">
+                Listar Usuarios
+            </button>
+
+            <br><br>
+
+            <button class="botao"
+                onclick="location.href = 'formFormaAtendimento.php?op=Incluir'">
+                Incluir Forma de Atendimento
+            </button>
+            <button class="botao"
+                onclick="location.href = 'formListarFormaAtendimento.php?op=Listar'">
+                Listar Formas de Atendimento
+            </button>
+
+            <br><br>
+
+            <button class="botao"
+                onclick="location.href = 'formPublico.php?op=Incluir'">
+                Incluir Publico
+            </button>
+            <button class="botao"
+                onclick="location.href = 'formListarPublico.php?op=Listar'">
+                Listar Publicos
+            </button>
+
+            <br><br>
+
+            <button class="botao"
+                onclick="location.href = 'formPerguntaPublico.php?op=Incluir'">
+                Incluir Pergunta Publico
+            </button>
+            <button class="botao"
+                onclick="location.href = 'formListarPerguntaPublico.php?op=Listar'">
+                Listar Perguntas Publico
+            </button>
+
+            <br><br>
+
+            <button class="botao"
+                onclick="location.href = 'formAtendimento.php?op=Incluir'">
+                Incluir Atendimento
+            </button>
+            <button class="botao"
+                onclick="location.href = 'formListarAtendimento.php?op=Listar'">
+                Listar Atendimentos
+            </button>
+
+            <br><br><br>
+
+            <button class="botaoIndex" onclick="location.href = '../../index.html'">
+                Menu Principal
+            </button>
+        </div>
+    </body>
+
+</html>
