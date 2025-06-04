@@ -1,4 +1,4 @@
-<h1>a3-projeto2<h1>
+<h1>a3-projeto2</h1>
 <h2>Projeto 2 – Software gerenciador de atendimentos</h2>
 <p>integrantes: Eduardo Lahn Fernandes, Thiago Figueiró e Juan Pablo da Rosa</p>
 
