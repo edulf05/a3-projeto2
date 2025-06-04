@@ -48,3 +48,26 @@ como por exemplo: formas de atendimento, publico, tipo de atendimento,
 atendimentos por período, sendo possível exportá-los para arquivo CSV.</p>
 <p>O sistema deverá permitir a criação de usuários com definição de permissões de
 acesso por um administrador.</p>
+
+<ol><li>Etapas do projeto:</li>
+<ul>
+<li>Casos de Uso</li>
+<li>Classes</li>
+<li>Diagrama ER e Modelo Físico</li>
+</ul>
+  <li>Implementar CRUD - Perfil de Acesso</li>
+  <li>Implementar CRUD – Usuários</li>
+  <li>Implementar CRUD - Forma de atendimento</li>
+  <li>Implementar CRUD - Público</li>
+  <li>Implementar CRUD - Tipo de atendimento</li>
+  <li>Implementar CRUD - Campos por tipo de atendimento</li>
+  <li>Implementar Tela de login</li>
+  <li>Implementar Tela de cadastro de atendimento</li>
+  <li>Implementar Relatório com filtros:</li>
+  <ol>
+    <li>Formas de atendimento</li>
+    <li>Público</li>
+    <li>Tipo de Atendimento</li>
+    <li>Período (de..até)</li>
+  </ol>
+</ol>
